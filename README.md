@@ -41,14 +41,17 @@ Bu projeyi çalıştırabilmek için sisteminizde aşağıdaki yazılımların k
 1.IP Adresi veya Ağ Aralığı Girişi
 Program sizden taranacak IP adresini veya ağ aralığını isteyecektir:
 
-Tek IP Adresi Örneği: <img width="413" height="69" alt="image" src="https://github.com/user-attachments/assets/302950eb-8b4b-4921-9aeb-876597cb0d7d" />
+Tek IP Adresi Örneği: 
+<img width="413" height="69" alt="image" src="https://github.com/user-attachments/assets/302950eb-8b4b-4921-9aeb-876597cb0d7d" />
 
-Ağ Aralığı Örneği (/24): <img width="540" height="69" alt="image" src="https://github.com/user-attachments/assets/603f655f-eec6-4ac6-9fae-81083806111d" />
+Ağ Aralığı Örneği (/24):
+<img width="540" height="69" alt="image" src="https://github.com/user-attachments/assets/603f655f-eec6-4ac6-9fae-81083806111d" />
 
 2. Port Aralığı Girişi
 Ardından taranacak port aralığını girmeniz istenecektir:
 
-Port Aralığı Örneği: <img width="403" height="76" alt="port_giris" src="https://github.com/user-attachments/assets/18167acc-7662-4b00-9ea0-7e1ec5d18379" />
+Port Aralığı Örneği:
+<img width="403" height="76" alt="port_giris" src="https://github.com/user-attachments/assets/18167acc-7662-4b00-9ea0-7e1ec5d18379" />
 
 3. Tarama Çıktısı
 Program, girilen IP(ler) üzerinde belirtilen port aralığını taramaya başlayacak ve her bir portun durumunu anlık olarak ekrana yazdıracaktır. Açık portlar için servis ve sürüm bilgisi de gösterilecektir.
