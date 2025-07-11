@@ -10,13 +10,12 @@ Bu proje, Python programlama dili ve `python-nmap` kütüphanesini kullanarak ge
 * **Kapsamlı Hata Yönetimi**: Geçersiz IP/port girişleri ve Nmap taraması sırasında oluşabilecek hatalar için kullanıcı dostu geri bildirimler.
 * **Temiz ve Modüler Kod Yapısı**: Her bir ana işlevselliğin (kullanıcı girişi, port taraması) ayrı modüllere ayrılması.
 
-## Proje Yapısı
 Port_Tarama/
-├── main.py
-├── utils/
-│   ├── init.py
-│   ├── Kullanici_Giris.py
-│   └── Port_Tarama.py
+├── main.py                     # Ana program dosyası: Girdileri alır, taramayı tetikler, sonuçları gösterir.
+├── utils/                      # Yardımcı fonksiyonları içeren paket (klasör).
+   ├── __init__.py             # Python'a 'utils' klasörünün bir paket olduğunu belirtir (genellikle boş dosya).
+   ├── Kullanici_Giris.py      # Kullanıcıdan IP/ağ ve port aralığı girdilerini alan ve doğrulayan fonksiyonları içerir.
+   └── Port_Tarama.py          # Nmap ile asıl port tarama mantığını ve anlık sonuç raporlamasını içerir.
 
 * `main.py`: Uygulamanın ana yürütülebilir dosyasıdır. Kullanıcı etkileşimini ve tarama sürecini koordine eder.
 * `utils/`: Yardımcı fonksiyonları içeren modüllerin bulunduğu dizin.
